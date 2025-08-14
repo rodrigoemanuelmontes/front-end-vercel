@@ -1,5 +1,5 @@
 import "https://cdn.jsdelivr.net/npm/qrcode@1.5.1/build/qrcode.min.js";
-const BASE_URL = "http://localhost:3000";
+const BASE_URL = "https://sistema-ticket-validado.vercel.app/";
 
 // Cargar evento único
 fetch(`${BASE_URL}/eventos`)
