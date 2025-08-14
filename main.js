@@ -1,6 +1,7 @@
 import QRCode from "https://cdn.jsdelivr.net/npm/qrcode@1.5.1/build/qrcode.min.js";
 
-const BASE_URL = "https://sistema-ticket-validado.vercel.app";
+const BASE_URL = "http://localhost:3000";
+
 
 // Login
 if(document.getElementById('login-btn')){
